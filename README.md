@@ -1,12 +1,12 @@
-#0. rosbridge_shell
+# 0. rosbridge_shell
 
 ***
 
-#0. rosbridge_driver
+# 0. rosbridge_driver
 
-#0. 0. rosbridge_driver node#
+# 0. 0. rosbridge_driver node#
 
-#0. 0. 0. Subscribed Topics
+# 0. 0. 0. Subscribed Topics
 
 0. 0. 0. Published Topics
 
