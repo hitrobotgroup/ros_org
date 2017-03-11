@@ -4,7 +4,7 @@
 
 # rosbridge_driver
 
-  0. rosbridge_driver node
+0. rosbridge_driver node
 
     0. Subscribed Topics
 
