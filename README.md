@@ -2,13 +2,13 @@
 
 ***
 
-0. rosbridge_driver
+# rosbridge_driver
 
-    0. rosbridge_driver node
+  0. rosbridge_driver node
 
-        0. Subscribed Topics
+    0. Subscribed Topics
 
-        0. Published Topics
+    0. Published Topics
 
 ### 1.3 Parameters
 
