@@ -10,9 +10,13 @@
 
     0. Published Topics
 
-### 1.3 Parameters
+    0. Parameters
+        * ~port_chain
+            Iterate over all ports (may be just one)
+        * ~topic_chain
+            Iterate over all topics (may be just one)
 
-### 1.4 Example Launch File
+    0. Example Launch File
 
 ## 2. cmd_vel plugin
 
