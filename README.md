@@ -68,8 +68,48 @@
 
 0. cmd_vel plugin
 
+    0. Subscribed Topics
+        * ~cmd_vel(geometry_msgs/Twist)
+            The incoming velocity control to drive
+
+    0. Published Topics
+
+    0. Parameters
+
+    0. Example Launch File
+
 0. odom plugin
+
+    0. Subscribed Topics
+
+    0. Published Topics
+        * ~odom(geometry_msgs/Twist)
+            The outgoing drive to odometry
+
+    0. Parameters
+
+    0. Example Launch File
 
 0. imu plugin
 
+    0. Subscribed Topics
+        * ~cmd_vel(geometry_msgs/Twist)
+            The incoming velocity control to drive
+
+    0. Published Topics
+
+    0. Parameters
+
+    0. Example Launch File
+
 0. sonar plugin
+
+    0. Subscribed Topics
+        * ~cmd_vel(geometry_msgs/Twist)
+            The incoming velocity control to drive
+
+    0. Published Topics
+
+    0. Parameters
+
+    0. Example Launch File
