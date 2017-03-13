@@ -22,13 +22,14 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" xmlns="XmlRpc/XmlRpcValue" href="http://xmlrpcpp.sourceforge.net/doc/classXmlRpc_1_1XmlRpcValue.html"?>
 <launch>
+    <arg name="foo_port" default="/dev/ttyUSB0"/>
     <node name="rosbridge_driver_node" pkg="rosbridge_driver" type="rosbridge_driver" output="screen">
         <param name="foo_port" value="$(arg foo_port)"/> <!-- optional: must be same with the target port name -->
         <rosparam>
             baz_qux: true <!-- bool: enable topic with name "baz" and type "qux" -->
             port_chain: <!-- required -->
               - name: foo_port <!-- required -->
-                type: serial <!-- serial / socket -->
+                type: serial <!-- required: serial / socket -->
                 serial_port: /dev/ttyUSB0 <!-- optional: be valid only if the "type" of this port is "serial" and the optional "foo_port" param is missing -->
                 serial_baud: 115200 <!-- 115200 / 57600 / 38400 / 19200 / 9600 / 4800 / 2400 -->
                 serial_bits: 8 <!-- 8 / 7 -->
