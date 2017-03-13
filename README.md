@@ -65,10 +65,10 @@
 </launch>
 ```
 
-    0. cmd_vel plugin
+0. cmd_vel plugin
 
-    0. odom plugin
+0. odom plugin
 
-    0. imu plugin
+0. imu plugin
 
-    0. sonar plugin
+0. sonar plugin
